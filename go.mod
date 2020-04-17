@@ -3,6 +3,7 @@ module github.com/rancher/k3s
 go 1.12
 
 replace (
+        github.com/rancher/kine => github.com/SteelCrow/kine v0.3.5.1
 	github.com/Microsoft/hcsshim => github.com/Microsoft/hcsshim v0.8.7-0.20190926181021-82c7525d98c8
 	github.com/containerd/btrfs => github.com/containerd/btrfs v0.0.0-20181101203652-af5082808c83
 	github.com/containerd/cgroups => github.com/containerd/cgroups v0.0.0-20190717030353-c4b9ac5c7601
